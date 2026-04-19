@@ -33,3 +33,16 @@ This project performs pre-processing of 10X Genomics Single-Cell RNA-seq data us
 | DropletUtils | 1.10.0 | Cell Filtering |
 
 ## Repository Structure
+├── README.md
+├── workflow/
+│   └── scRNA-seq-10X-Preprocessing-Workflow.ga
+├── results/
+│   ├── multiqc_report.html
+│   ├── barcode_rank_plot.png
+│   └── emptydrops_plot.png
+└── data/
+└── barcodes_defaultdrops.tsv
+
+## Reference
+- [Galaxy Training Tutorial](https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html)
+- Zenodo Dataset: https://zenodo.org/record/3457880
